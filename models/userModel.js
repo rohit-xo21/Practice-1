@@ -41,7 +41,7 @@ function validatePassword(password) {
 
 
 function validateDOB(dob) {
-    return (new Date().getFullYear - dob.getFullYear >=18)
+    return (new Date().getFullYear() - dob.getFullYear() >= 18);
 }
 
 
